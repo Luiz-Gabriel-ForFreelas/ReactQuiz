@@ -1,8 +1,5 @@
-# React + Vite
+<h1>Organização dos arquivos</h1>
+<p>A página index.html executa o script presente na pasta /scr/main.jsx, que por sua vez chama a página App.jsx a qual é responsável por abrigar as funções de context presentes em ./src/context/, as quais tem a função de organizar e ordenar as páginas de components presentes em ./src/componetns. </p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h1>Sobre o projeto</h1>
+<p>O projeto foi desenvolvido através do framework ReactJS, e tem como objetivo principal exercitar o conceito do uso de contexts para alterar o uso dos componetns dentro da página, sem que seja necessário um envio de requisição HTTP para isso.</p>
